@@ -16,7 +16,7 @@ weather.temperature = {
 //App consts --- константы приложения
 const KELVIN = 273;
 //API key --- ключ АПИ
-const key = "db901d788920bad10676dbacb9f0b315";
+const key = "9fed38740084743c099fc1a20052ebfe";
 
 //check if browser supports geolocation --- проверить поддерживание браузером геолокации 
 if('geolocation' in navigator){
