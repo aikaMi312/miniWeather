@@ -1,0 +1,130 @@
+html{
+    height: 100%;
+}
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    min-height:100vh;
+    margin: 0;
+}
+.fixed-wrap{
+    position: relative;
+    background: url(../img/skyPoni.png) no-repeat center / cover;
+    height: 100vh;
+    background-color: lightblue;
+    background-size: 100%;  
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+}
+
+.container{
+    width: 300px;    
+    background-color: rgb(255, 255, 255);
+    
+    display: block;
+    margin: 0 auto;
+    
+    border-radius: 10px;
+    border-color: #b3d9ff;
+    padding-bottom : 50px;
+}
+
+.title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #15245a;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: 300px;
+    min-height: 300px;
+    background-color: #80bfff;
+}
+.weather-containe hr{
+    width: 280px;
+    
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.7em;
+}
+
+.temperature-description{
+    width: 300px; 
+    height: 30px;
+    margin-top: 15px;
+}
+
+.temperature-description p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em; 
+}
+.location{
+    margin-top: 8px;
+}
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+/* .city input{
+    font-size: 15px;
+} */
+
+
+
